@@ -5,7 +5,7 @@ export const Counter = ()=>{
 
     return(
         <>
-            <div className="">
+            <div className="buttons">
                 <button onClick={()=>setCount(count + 1)}>+</button>
                 <p>{count}</p>
                 <button onClick={()=>setCount(count - 1)}>-</button>
