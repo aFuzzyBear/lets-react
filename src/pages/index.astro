@@ -1,0 +1,56 @@
+---
+// 🤯 Auto Imports !!!
+import { Counter } from "../components/Counter";
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>React Brussels</title>
+	</head>
+	<body>
+
+		<h1>Hello React Brussels</h1>
+		<div class="logos">
+			<img src="/astro.svg" alt="">
+			<span style="font-size: 7rem;">💚</span>
+			<img src="/react.svg" alt="">
+		</div>
+		<p>Lets add some depth</p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consequuntur voluptatum natus autem et provident neque amet mollitia suscipit cumque, aut voluptate omnis non animi numquam id labore? Nisi, magni.
+		Quaerat voluptatum non dolor a nam enim consequatur beatae, iusto maiores aliquid. Tempora excepturi, nam modi quo iste voluptate magnam sint ea fuga ducimus exercitationem architecto, incidunt sed quisquam odio?
+		Qui provident magni quibusdam pariatur nostrum dolore, repudiandae quas optio mollitia laborum molestiae voluptatibus saepe tempore iure quidem cumque nisi tenetur alias hic eos fugiat eius. Ea beatae dolor praesentium.
+		Fugiat pariatur nam iste laboriosam sapiente magnam iure reprehenderit adipisci qui sed ducimus, officiis delectus explicabo velit magni laborum commodi quasi enim soluta accusamus deserunt! Soluta, mollitia! Harum, aliquid voluptas!
+		Voluptates optio possimus quidem dicta temporibus, labore a qui dolorum, nulla tenetur sint debitis ducimus, cupiditate sequi consectetur vitae voluptatibus! Autem dignissimos at omnis a expedita rem nihil incidunt eum.
+		Porro iste hic vitae, deleniti similique culpa ullam expedita facilis facere veritatis fugiat, illo fuga est atque dignissimos in aliquam dicta ea repellat possimus. Repellendus doloribus beatae enim explicabo eos!
+		Minus unde nostrum harum obcaecati minima ipsa. Quasi voluptatibus, nisi a, id tenetur architecto dolores vitae debitis consequuntur animi neque quisquam qui illo? Fugit quaerat laudantium in dicta temporibus alias.
+		Beatae odit corporis fugit libero, repellendus sunt impedit magnam dolorum accusantium ipsa, aspernatur, ullam tempora sit soluta laborum facilis nulla reiciendis commodi? Nobis voluptate consequatur excepturi, iste mollitia molestias explicabo?
+		Mollitia animi commodi aspernatur, eum necessitatibus autem temporibus quasi voluptas, explicabo qui repellendus nulla sequi ex iusto nesciunt quia perferendis. A temporibus quisquam voluptatem error repellendus debitis rem, hic nihil.
+		Voluptas soluta voluptatum voluptates, in quam quidem hic blanditiis ipsam, enim cumque impedit autem accusantium. Dolor alias cupiditate eos. Maiores iusto, quos doloremque veritatis hic nulla cumque labore sunt vel.
+
+		<Counter client:visible/>
+		<p>👆 This is loaded using 'Client:visible'🤯</p>
+	</body>
+</html>
+<style>
+	:root{
+		background-color: cadetblue;
+	}
+	h1{
+		
+	}
+	.logos{
+		display: flex;
+	    align-items: stretch;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		align-content: center;
+		justify-content: space-around;
+		height: 150px;
+	}
+
+</style>
