@@ -2,6 +2,7 @@
 // 🤯 Auto Imports !!!
 import { Counter } from "../components/Counter";
 
+import '../assets/styles.css'
 ---
 
 <html lang="en">
@@ -14,7 +15,7 @@ import { Counter } from "../components/Counter";
 	</head>
 	<body>
 
-		<h1>Hello React Brussels</h1>
+		<h1>👋 Hello React Brussels</h1>
 		<div class="logos">
 			<img src="/astro.svg" alt="">
 			<span style="font-size: 7rem;">💚</span>
@@ -33,24 +34,6 @@ import { Counter } from "../components/Counter";
 		Voluptas soluta voluptatum voluptates, in quam quidem hic blanditiis ipsam, enim cumque impedit autem accusantium. Dolor alias cupiditate eos. Maiores iusto, quos doloremque veritatis hic nulla cumque labore sunt vel.
 
 		<Counter client:visible/>
-		<p>👆 This is loaded using 'Client:visible'🤯</p>
+		<p class="note">👆 This is loaded using 'Client:visible' 🤯 </p>
 	</body>
 </html>
-<style>
-	:root{
-		background-color: cadetblue;
-	}
-	h1{
-		
-	}
-	.logos{
-		display: flex;
-	    align-items: stretch;
-		flex-wrap: nowrap;
-		flex-direction: row;
-		align-content: center;
-		justify-content: space-around;
-		height: 150px;
-	}
-
-</style>
